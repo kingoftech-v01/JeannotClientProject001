@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palette de Couleurs Modifiée</title>
+    <style>
+        :root {
+            --blue-royal: #1E4D9E;
+            --deep-purple: #4A0080;
+            --light-mauve: #8B2A9E;
+            --gold: #B39700;
+            --lavender: #7F7FBF;
+            --couleur-dark-rename: #1c1c1c;
+            --couleur-dark2-rename: #2c2c2c;
+            --jet-black: #270238;
+            --coral: #B35840;
+            --mustard-yellow: #FFD700;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            font-family: Arial, sans-serif;
+        }
+        .color-strip {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+            font-weight: bold;
+        }
+        #blue-royal { background-color: var(--blue-royal); }
+        #deep-purple { background-color: var(--deep-purple); }
+        #light-mauve { background-color: var(--light-mauve); }
+        #gold { background-color: var(--gold); }
+        #lavender { background-color: var(--lavender); }
+        #couleur-dark-rename { background-color: var(--couleur-dark-rename); }
+        #couleur-dark2-rename { background-color: var(--couleur-dark2-rename); }
+        #jet-black { background-color: var(--jet-black); }
+        #coral { background-color: var(--coral); }
+        #mustard-yellow { background-color: var(--mustard-yellow); color: black; }
+    </style>
+</head>
+<body>
+    <div class="color-strip" id="blue-royal">Bleu Royal (#1E4D9E)</div>
+    <div class="color-strip" id="deep-purple">Violet Profond (#4A0080)</div>
+    <div class="color-strip" id="light-mauve">Mauve Clair (#8B2A9E)</div>
+    <div class="color-strip" id="gold">Or (#B39700)</div>
+    <div class="color-strip" id="lavender">Lavande (#7F7FBF)</div>
+    <div class="color-strip" id="couleur-dark-rename">Noir Foncé (#1c1c1c)</div>
+    <div class="color-strip" id="couleur-dark2-rename">Noir Moyen (#2c2c2c)</div>
+    <div class="color-strip" id="jet-black">Noir de Jais (#270238)</div>
+    <div class="color-strip" id="coral">Corail (#B35840)</div>
+    <div class="color-strip" id="mustard-yellow">Jaune Moutarde (#FFD700)</div>
+</body>
+</html>
